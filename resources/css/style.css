@@ -1,3 +1,8 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP  */
+/* ---------------------------------------------- */
+
+
 *{
     margin:0;
     padding:0;
@@ -14,6 +19,11 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* ---------------------------------------------- */
+/* RESUABLE COMPONENTS  */
+/* ---------------------------------------------- */
+
+
 .row{
 
     max-width: 1140px;
@@ -23,27 +33,7 @@ html {
 
 }
 
-header {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.253)), url(img/hero.jpg);
-    background-position: center;
-    height: 100vh;
-    background-size: cover;
-
-
-}
-
-
-.hero-text-box{
-
-    position: absolute;
-    width:1140px;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%)
-
-
-}
+/* -----HEADINGS ------- */
 
 h1{
 
@@ -57,6 +47,8 @@ h1{
 
 
 }
+
+/* -------BUTTONS-------- */
 
 .btn:link,
 .btn:visited{
@@ -116,4 +108,72 @@ h1{
 
     
 
+}
+
+
+/* ---------------------------------------------- */
+/* ----------HEADER------------- */
+/* ---------------------------------------------- */
+
+
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.253)), url(img/hero.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+
+.hero-text-box{
+
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+
+
+}
+
+.logo{
+
+    height:100px;
+    width:auto;
+    float:left;
+    margin-top:20px;
+
+}
+
+.main-nav{
+    float:right;
+    text-align: left;
+    list-style: none;
+    margin-top:50px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    border-bottom: 2px solid transparent;
+    transition: border 0.5s;
+    padding-bottom: 1px;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active{
+
+    border-bottom: 2px solid #e67e22;
 }
