@@ -7,7 +7,7 @@
 html {
 
     font-size: 20px;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: sans-serif;
     color: 555;
     background-color: #fff;
     font-weight: 300;
@@ -40,7 +40,7 @@ header {
     width:1140px;
     top:50%;
     left:50%;
-    transform:translate(-50%)
+    transform:translate(-50%, -50%)
 
 
 }
@@ -49,6 +49,71 @@ h1{
 
     color:#fff;
     font-size:200%;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom:20px;
+
+
+}
+
+.btn:link,
+.btn:visited{
+
+    display: inline-block;
+    padding: 10px 30px;
     font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.5s;
+    
+
+
+
+}
+
+.btn-full:link,
+.btn-full:visited{
+
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+
+    border: 1px solid  #e67e22;
+    margin-left: 20px;
+    color: #e67e22;
+
+
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active{
+
+    color: #fff;
+    background-color:#cf6d17;
+
+
+
+}
+
+.btn-full:hover,
+.btn-full:active{
+
+    color: #e67e22;
+    background-color: transparent;
+
+}
+
+.btn:hover,
+.btn:active{
+
+    
 
 }
