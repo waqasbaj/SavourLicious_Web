@@ -19,6 +19,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom:1}
+.clearfix:after{
+    content:'.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden;
+     
+}
+
 /* ---------------------------------------------- */
 /* RESUABLE COMPONENTS  */
 /* ---------------------------------------------- */
@@ -312,3 +322,88 @@ header {
     
 
 }
+
+
+/* ---------------------------------------------- */
+/* ----------HOW IT WORKS------------- */
+/* ---------------------------------------------- */
+
+.section-steps{
+    
+    background-color: #f4f4f4;
+}
+
+
+.steps-box {
+
+    margin-top : 30px;
+
+}
+
+.steps-box:first-child{
+
+    text-align:right;
+    padding-right:3%;
+
+}
+
+.steps-box:last-child{
+
+    padding-left:3%;
+    margin-top:70px;
+}
+
+.app-screen{
+
+    width: 40%;
+
+}
+
+.works-step:last-of-type{
+
+    margin-bottom:80px;
+}
+
+
+.works-step div{
+    height: 50px;
+    width: 50px;
+    background-color:transparent;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #e67e22;
+    text-align:center;
+    padding:5px ;
+    /* display:inline-block; */
+    float:left;
+    margin-right:20px;
+  
+}
+  
+
+.works-step p{
+
+      /* display:block; */
+      /* float:left; */
+      margin:20px 0;
+      text-align:left;
+    
+}
+
+
+.btn-app img{
+
+    height:50px;
+    width:auto;
+    /* margin-top:50px; */
+    margin-left:20px;
+    align-content: left;
+    float:left;
+
+
+}
+
+
+
+  
