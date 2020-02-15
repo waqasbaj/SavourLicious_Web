@@ -406,4 +406,68 @@ header {
 
 
 
-  
+/* ---------------------------------------------- */
+/* ----------CITIES------------- */
+/* ---------------------------------------------- */  
+
+
+/* .cities{
+
+    float:left;
+} */
+
+.cities img{
+
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+
+
+}
+
+.cities ion-icon{
+
+    color:#e67e22;
+    float:left;
+    margin-right:10px;
+    vertical-align: middle;
+}
+
+.cities p{
+
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.cities div{
+
+    text-align: left;
+    font-size:95%;
+}
+
+.cities a{
+
+    float:left;
+
+}
+
+.cities a:visited,
+.cities a:link{
+
+    color:#e67e22;
+    text-decoration: transparent;
+    transition:text-decoration 0.5s, color 0.5s;
+
+}
+
+.cities a:hover,
+.cities a:active{
+
+    color:#555;
+    text-decoration: underline;
+   
+
+}
+
+
+
