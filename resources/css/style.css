@@ -206,7 +206,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.253)), url(img/hero.jpg);
     background-position: center;
     height: 100vh;
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 
 
 }
@@ -468,6 +469,157 @@ header {
    
 
 }
+
+/* ---------------------------------------------- */
+/* ----------CUSTOMERS------------- */
+/* ---------------------------------------------- */  
+
+.section-customers{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/back-customers.jpg);
+    color:#d4d0d0;
+    background-size:cover;
+    background-attachment: fixed
+}
+
+.testimonial{
+
+    text-align: left;
+    opacity: 50%;
+    position: relative;
+}
+
+.testimonial:hover,
+.testimonial:active{
+
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.testimonial ion-icon{
+
+    margin-bottom:25px;
+    font-size: 50px;
+  
+}
+
+
+
+
+.testimonial p{
+
+    
+    /* display: block; */
+    margin-top: 25px;
+
+}
+
+.testimonial img{
+
+    border-radius: 50%;
+    height:50px;
+    /* float: left; */
+    margin-right: 20px;
+    /* margin-top:25px; */
+    vertical-align: middle;
+    
+}
+
+.testimonial div:before{
+
+    content:"\201C";
+    font-size:400%;
+    position: absolute;
+    top:-45px;
+    left:-5px;
+    
+
+
+}
+
+
+/* ---------------------------------------------- */
+/* ----------PRICING------------- */
+/* ---------------------------------------------- */  
+
+
+.section-pricing{
+
+    background-color: #b9b9b9;
+}
+
+.plan-box{
+
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    width:90%;
+    margin-left:5%;
+    text-align: left;
+    box-shadow: 0 2px 2px rgb(207, 207, 207);
+
+}
+
+.plan-box div{
+
+    padding:15px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+
+
+}
+
+.plan-price{
+
+    font-size:300%;
+    margin-bottom:10px;
+    font-weight: lighter;
+    color:#e67e22;
+}
+
+.plan-price-meal{
+
+    font-size:80%;
+
+}
+
+.plan-price span{
+
+    font-size:30%;
+}
+
+.plan-box ul{
+
+    list-style: none;
+}
+
+.plan-box li{
+
+    margin:10px 0;
+}
+
+.plan-box ion-icon{
+
+    margin-right:20px;
+    font-size: 75%;
+}
+
+.plan-box div:last-child{
+
+    text-align: center;
+    border-bottom: none;
+}
+
+.plan-box div:first-child{
+
+    background-color:rgb(230, 230, 230);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+
+
 
 
 
