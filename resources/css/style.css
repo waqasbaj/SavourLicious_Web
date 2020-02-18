@@ -664,6 +664,76 @@ input[type=checkbox]{
 
 *:focus {outline: none;}
 
+/* ---------------------------------------------- */
+/* ----------FOOTER------------- */
+/* ---------------------------------------------- */
+
+.footer{
+    background-color: #333;
+    padding-top: 10px;
+    font-size: 75%;
+}
+
+.footer-nav{
+
+    list-style: none;
+    float: left;
+
+    
+}
+
+.social-links{
+    
+    list-style: none;
+    float:right;
+    /* opacity: 50%; */
+}
+
+.footer-nav li,
+.social-links li{
+
+    display: inline-block;
+    margin-right:20px;
+}
+
+.footer a{
+
+    color:#888;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.social-links li:last-child{
+
+    margin-right:0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+
+    color:#888;
+    transition: color 0.5s;
+    
+
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+
+    color:#ddd;
+
+}
+
+
+.footer p{
+
+    color:#888;
+    opacity: 50%;
+    padding-top:5px;
+    padding-bottom: 15px;
+}
+
+
 
 
 
