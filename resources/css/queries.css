@@ -1,0 +1,135 @@
+
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row */
+@media only screen and (max-width:1200px){
+
+
+.hero-text-box{
+
+
+    width:100%;
+    padding:0 2%;
+
+
+}
+
+.row{
+
+    padding: 0 2%;
+
+}
+
+
+
+}
+
+
+/* Small tablet to big Tablet : from 768px to 1023 px*/
+@media only screen and (max-width:1023px){
+
+    body{font-size:18px;}
+    section{padding: 60px 0;}
+
+    .long-copy{
+        width:80%;
+        margin-left: 15%;
+    }
+
+    .steps-box {
+        margin-top:10px;
+    }
+
+    .steps-box:last-child {
+        margin-top:10px;
+    }
+
+    .work-steps{margin-bottom: 40px}
+
+
+    .work-steps{margin-bottom: 60px}
+
+    .app-screen {width: 50%}
+
+    .btn-app img{
+
+        height:40px;
+        width:auto;
+        /* margin-top:50px; */
+        margin-left:10px;
+        align-content: left;
+        /* float:left; */
+    
+    
+    }
+
+    .plan-price-meal{
+
+        font-size:80%;
+    
+    }
+
+    .plan-box div a{
+
+        font-size: 80%;
+    }
+
+    .plan-order{
+
+        font-size:60%;
+    }
+
+    .cities p,
+    .cities a{
+
+        font-size: 80%;
+    }
+
+    label{
+
+        font-size:80%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=checkbox],
+    select,
+    textarea{
+
+    font-size:80%;
+    } 
+
+    .section-form div h2{
+
+        font-size:120%;
+    }
+
+    .checkbox{
+
+        font-size:80%;
+    }
+
+
+
+
+
+}
+
+
+
+
+/* Small Phones to small tablets : 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+
+
+}
+
+
+
+/* Small Phones: from 0 to 480px  */
+@media only screen and (max-width:480px){
+
+
+}
